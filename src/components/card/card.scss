@@ -1,0 +1,21 @@
+.whoHeader{
+    padding: 30px;
+    background-color: #fff;
+    color: #000;
+    h1{
+      font-family: "cheddar-gothic-sans", sans-serif;
+      margin-bottom: 30px;
+    }
+    p{
+      width: 25%;
+      text-align: left;
+    }
+  }
+  .dj_image_holder{
+    height: 200px;
+    .dj_image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
