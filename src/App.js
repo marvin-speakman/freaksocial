@@ -15,7 +15,6 @@ function App() {
       <Cards></Cards>
       <Events></Events>
       <Footer></Footer>
-      {/* <Player></Player> */}
     </div>
   );
 }

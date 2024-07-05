@@ -1,23 +1,7 @@
-import AudioPlayer from 'react-h5-audio-player';
-import 'react-h5-audio-player/lib/styles.css';
-import mix1 from '../../assets/Balearic_Breakdown.mp3';
-
-
-const changeTrack = () =>  (
-    console.log('track')
-)
-
+import React from 'react';
 const Player = () => (
     <>
-    <button id="mix1" onClick={changeTrack}>Balearic Breakdown</button>
-    <button id="mix2" onClick={changeTrack}>mix 2</button>
-    <button id="mix3" onClick={changeTrack}>mix 3</button>
-    <AudioPlayer
-        autoPlay
-        src={mix1}
-        onPlay={e => console.log("onPlay")}
-        // other props here
-    />
+    <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Ffreakysocial%2Fmarvin-freaky-social-april-2024%2F" frameBorder="0" ></iframe>
   </>
 );
 
